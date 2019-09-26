@@ -2,16 +2,19 @@ import React from "react";
 
 import { CounterContext } from "../context/counter-context.js";
 
-class Count extends React.Component {
+class Increment extends React.Component {
   static contextType = CounterContext;
 
   render() {
     return (
       <div className="container">
-        <span className="counter">{this.context.count}</span>
+        <button className="button" onClick={e => this.context.increment()}>
+          {" "}
+          +{" "}
+        </button>
       </div>
     );
   }
 }
 
-export default Count;
+export default Increment;

@@ -10,20 +10,21 @@
 * [code sandbox](https://codesandbox.io/s/class-33-practice-3yqe4)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `counter-context.js`
+#### `counter.js`
+#### `increment.js`
+#### `decrement.js`
+#### `app.js`
 
 ### Setup
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+  * Spins up the react app on localhost 3000
   
 #### Tests
 * How do you run tests?
+  * Use npm test in the terminal, to start testing.
 
 #### UML
 Link to an image of the UML for your application and response to events
